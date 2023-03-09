@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    justify-content: center;
+    text-align: center;
+    /* border-bottom: 1px solid white; */
+    /* padding-bottom: 10px; */
+}
+
+.navbar img{
+    height: 50px;
+    background-color: white;
+    border-radius: 70px;
+    box-shadow: 0px 0px 5px white;
+}
+
+.nav-item a{
+    font-weight: 500;
+}
+
+.cont input{
+    background-color: #115280;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.bg{
+    /* width: 100%; */
+    /* padding: 200px; */
+    text-align: center;
+    padding: 90px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #115280;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(../images/a2.jpg); */
+}
+
+.bg h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.bg p{
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.button{
+    background-color: white;
+    color: #115280;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    transform: translateY(10px);
+}
+
+.one{
+    /* width: 100%; */
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    /* border-radius: 200px; */
+    border-top-left-radius: 130px;
+    background-image: url(../images/360_F_357730597_ipILQnMwosSO0KyLILfYeCQNCCn2dBnB.jpg);
+}
+.two{
+    /* width: 100%; */
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    /* border-radius: 200px; */
+    border-top-left-radius: 130px;
+    background-image: url(../images/image-52113-portrait-saudi-arabian-gulf-student-traditional-saudi-dres-thumbnail.jpg);
+}
+.three{
+    /* width: 100%; */
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    /* border-radius: 200px; */
+    border-top-left-radius: 130px;
+    background-image: url(../images/images\ -\ 2023-03-09T070010.545.jpeg);
+}
+
+.edu{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.imggg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 130px;
+    height: 400px;
+    background-image: url(../images/images\ -\ 2023-03-09T070010.545.jpeg);
+}
+.imgg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 130px;
+    height: 400px;
+    background-image: url(../images/portrait-smiling-beautiful-asian-woman-white-sweater-hijab-holding-laptop-showing-thumb-up-isolated-yellow-background-people-religious-lifestyle-concept_509243-4213.avif);
+}
+
+.vision{
+    font-size: 40px;
+}
+
+.girl{
+    background-image: url(../images/beautiful-asian-woman-cheerful-wearing-eyeglass-orange-wall_369721-795.avif);
+    height: 400px;
+    /* width: 50%; */
+    border-radius: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history h3{
+    font-size: 30px;
+}
+
+.history button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: all 0.3s;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.history button:hover{
+    background-color: black;
+    color: white;
+}
+
+.ct{
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: transparent;
+}
+
+.success{
+    font-size: 60px;
+    /* font-weight: bold; */
+}
+
+.lor{
+    font-size: 20px;
+}
+
+.right{
+    background-image: url(../images/images\ -\ 2023-03-09T070010.545.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 90px;
+    height: 400px;
+}
+.down{
+    background-image: url(../images/beautiful-asian-woman-yellow-wall_180886-231.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 90px;
+    height: 400px;
+}
