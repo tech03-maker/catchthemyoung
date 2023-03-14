@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    background-color: #115280;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.form img{
+    height: 50px;
+    background-color: white;
+    border-radius: 70px;
+    box-shadow: 0px 0px 5px white;
+    margin: auto;
+    text-align: center;
+}
+
+.form input{
+    margin: auto;
+    font-size: 15px;
+    font-weight: 600;
+    color: #115280;
+}
+
+.login{
+    color: #115280;
+    padding-bottom: 50px;
+}
+
+.form button{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    border: none;
+    color: #115280;
+    transition: all 0.3s;
+}
+
+.form button:hover{
+    transform: translateY(5px);
+}

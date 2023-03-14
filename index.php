@@ -1,3 +1,5 @@
+<?php require("sendEmail.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +14,12 @@
     <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/css/all.css">
 </head>
 <body>
+    
+    <div id="preloader">
+        <div class="loader">
+            <img src="assets/images/images_-_2023-03-09T054918.428-removebg-preview.png" alt="">
+        </div>
+    </div>
     <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #115280; text-align: center; justify-content: center;">
         <div class="container">
             <img src="assets/images/images_-_2023-03-09T054918.428-removebg-preview.png" alt="">
@@ -24,16 +32,14 @@
                         <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="pages/about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Student Info</a>
+                        <a class="nav-link" href="pages/studentinfo.php">Student Info</a>
                     </li>
+                    
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Admission</a>
+                        <a class="nav-link" href="pages/admission.html">Admission</a>
                     </li>
                 </ul>
                 <!-- Button trigger modal -->
@@ -51,7 +57,7 @@
                                     </div>
                             <div class="modal-body">
                                 <div class="cont container-fluid">
-                                    <input class="w-75" type="text">
+                                    <input class="w-75" type="text" placeholder="Type here...">
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -77,8 +83,8 @@
             <div class="mt-4">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <button  class="button">Contact Us</button>
-                    <button class="button mt-2">Apply Now</button>
+                        <a href="pages/contact.html"><button  class="button">Contact Us</button></a>
+                        <a href="pages/login.php"><button  class="button">Log In</button></a>
                     </div>
                 </div>
             </div>
@@ -120,9 +126,9 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
                 <h4 class="vision">Our Vision</h4>
-                <p>To be a Model for Islamic Schools In Ibadan</p>
-                <h4 class="vision">Our Focus</h4>
-                <p>The Focus of The School is Qur'an and Science</p>
+                <p>To produce intellectualy sound, physically fit and islamically conscious personalities for success in this world and the hereafter.</p>
+                <h4 class="vision">Our Mission  </h4>
+                <p>To establish educational institutions providing balanced knowledge and instilling good character into the leaders of tomorrow.</p>
             </div>
         </div>
     </div>
@@ -164,23 +170,20 @@
           <div class="row justify-content-center">
             <div class="col-md-9 text-center">
               <div class="footer-site-logo mb-4">
-                <a href="#">C.T.Y</a>
+                <a href="index.html">C.T.Y</a>
+                <p>No 1, Suara Akande, Behind FoodCo Building, Adeoyo Ibadan</p>
               </div>
               <ul class="list-unstyled nav-links mb-5">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Press</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Legal</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="pages/services.html">Services</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
               </ul>
   
               <div class="social mb-4">
                 <h3>Stay in touch</h3>
                 <ul class="list-unstyled">
                   <li class="in"><a href="#"><span><i class="fab fa-instagram"></i></span></a></li>
-                  <li class="fb"><a href="#"><span><i class="fab fa-facebook"></i></span></a></li>
+                  <li class="fb"><a href="https://www.facebook.com/people/CTY-Group-of-Schools/100083056912335/"><span><i class="fab fa-facebook"></i></span></a></li>
                   <li class="tw"><a href="#"><span><i class="fab fa-twitter"></i></span></a></li>
                   <li class="pin"><a href="#"><span><i class="fab fa-whatsapp"></i></span></a></li>
                 </ul>
@@ -195,6 +198,7 @@
           </div>
         </div>  
 </body>
+
 <script>
     var modalId = document.getElementById('modalId');
 
@@ -207,7 +211,8 @@
         // Use above variables to manipulate the DOM
     });
 </script>
+<script src="assets/js/script.js"></script>
 <script src="assets/js/popper.min.js"></script>
-<script src="assets/js/jquery-3.3.1.min.js  "></script>
+<script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
 </html>
